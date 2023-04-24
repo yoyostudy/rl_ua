@@ -74,7 +74,8 @@ This course followed the rl textbook by Sutton.
 
 
 ### Model 2. Temporal difference (TD) learning
-🔗 **Chapter 6.3 ***
+🔗 **Chapter 6.3**
+
 
 
 
