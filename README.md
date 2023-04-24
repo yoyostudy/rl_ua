@@ -73,4 +73,11 @@ This course followed the rl textbook by Sutton.
 4. Off-policy learning for prediction
 
 
+### Model 2. Temporal difference (TD) learning
+🔗 **Chapter 6.3 ***
+
+
+
+
+
 
