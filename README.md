@@ -15,20 +15,25 @@ This course followed the rl textbook by Sutton.
   - only for Episodic tasks: learn value use averaging sample returns
     
     > Learn the __state-value function__ $v_{\pi}(s)$ considering Monte-Carlo method
+
     ```pseudocode
     Args:
       policy pi ## policy to be evaluated
       V(s)      ## state-value function given the policy pi
-      S(s)      ## 
+      S(s)      ## a list of total reward for each episode
+      N(s)      ## number of episode
     
-    Repeat forever:
-      For each state s appearing in the episode:
-        G(s) <- return given initial state s
+    Repeat for each episode:
+      N(s) += 1
+      For each state s until episode terminate:
+        Generate an episode following policy pi: S0(s), A0, R1, S1, A1,....
+        G(s) <- return given initial state S0=s
         S(s) <- S(s).append(G(s))
         V(s) <- average(S(s))
     ```
-
-
+    Recall that  $$\large{v_{\pi}(s) = \mathit{E_{\pi}} \[G_t | S_t = s \]}$$
+    
+    Law of Large Numbers gives: $$N(s) \rightarrow \infty, V(s) \rightarrow v_{\pi}(s)$$
 
 3. Monte-carlo for Control
 4. Exploration Methods for Monte-Carlo
