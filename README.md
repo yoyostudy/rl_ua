@@ -1,6 +1,10 @@
 ### RL specialization offered by Univerisity of Albeta @Coursera
 
+This repository is the record and note of this Coursera Course
+
 This course followed the rl textbook by Sutton. 
+
+其实感觉这个课程的质量不高，两个老师讲的很快，推导也是一步带过。好几个video都是反复看了好几遍也没听懂，但是一看书就很清楚。
 
 ## Course 1. 
 
