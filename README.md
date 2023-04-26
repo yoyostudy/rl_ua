@@ -2,6 +2,25 @@
 
 This course followed the rl textbook by Sutton. 
 
+## Course 1. 
+
+### Bellman Equation
+
+### Dynamic Programming
+
+Refer to _Sutton Chapter4_
+
+- DP + Perfect Model of finite MDP env --> compute optimal policy
+
+**1. (Prediction Problem) Policy Evaluation**
+
+$$v_{\pi}(s) = \mathbb{E_{\pi}}$$
+
+
+
+
+
+
 ## Course 2. Sample-based Learning Method
 
 🔗 Refer to _Sutton_ **Chapter5** - **Chapter8**
