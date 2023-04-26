@@ -77,6 +77,16 @@ This course followed the rl textbook by Sutton.
 🔗 **Chapter 6.3**
 
 
+## Course3 Prediction and Control with Function Approximation
+
+- learn parametrized function <-- store all values for all states in a table
+- neural network to approximate the value
+
+- refer: **Ch.9.1-9.4**
+
+
+
+
 
 
 
