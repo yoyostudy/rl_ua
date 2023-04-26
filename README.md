@@ -6,6 +6,8 @@ This course followed the rl textbook by Sutton.
 
 其实感觉这个课程的质量不高，两个老师讲的很快，推导也是一步带过。好几个video都是反复看了好几遍也没听懂，但是一看书就很清楚。
 
+我在看这个课的同时也看了莫烦的rl课和王树森的深度强化学习课。
+
 ## Course 1. 
 
 ### Bellman Equation
