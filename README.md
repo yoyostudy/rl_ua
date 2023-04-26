@@ -8,6 +8,8 @@ This course followed the rl textbook by Sutton.
 
 我在看这个课的同时也看了莫烦的rl课和王树森的深度强化学习课。
 
+说实话我最烦的就是给数学公式跳步，bellman equation里面对什么东西求期望都没说清楚，直接给推导公式。刚开始看的时候一头雾水。😡
+
 ## Course 1. 
 
 ### Bellman Equation
