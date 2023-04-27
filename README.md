@@ -13,6 +13,12 @@ To begin with:
 我一般在吃饭的时候看王树森的课，一边吃一边记笔记想推导。吃完之后就直接看他的note，就发现好像都看懂了。反正看ua的rl课看不懂了就去看王树森🐶
 
 --------------------
+
+Certificate:
+
+[UA_RL_1.pdf](https://github.com/yoyostudy/rl_ua/files/11346475/UA_RL_1.pdf)
+
+
 ## Course 1. 
 
 ### Bellman Equation
