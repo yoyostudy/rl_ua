@@ -29,8 +29,12 @@ Assignments:
 - Course-2-Assignments: 🔗 Sutton Chapter 6
   
   [Policy Evaluation in cliff Walking Environment](https://github.com/yoyostudy/rl_ua/tree/main/code/C2_A1_CliffWalking_PolicyEvaluation/Policy%20Evaluation%20with%20Temporal%20Difference%20Learning)
+  
+  [Q-learning and Expected SARSA in cliff Walking Environment](https://github.com/yoyostudy/rl_ua/tree/main/code/C2_A2_Qlearning_SARSA_CliffWalking/Q-Learning%20and%20Expected%20Sarsa)
 
       key Words: TD, Model-free, boostrapping, TD(0), policy-based
+      
+  
       
 
 ## Course 1. 
