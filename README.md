@@ -20,6 +20,11 @@ Certificate:
 
 [UA_RL_4.pdf](https://github.com/yoyostudy/rl_ua/files/11346478/UA_RL_4.pdf)
 
+Assignments:
+
+Course-1-Assignment-1: [Bandit Exploration and Exploitation](https://github.com/yoyostudy/rl_ua/tree/main/code/C1_W1_A1_bandit_exploration_eploitation/Bandits)
+Course-1-Assignment-2: [Optimal Policies with Dynamic Programming]() 🔗 Sutton Chapter 4
+
 ## Course 1. 
 
 ### Bellman Equation
