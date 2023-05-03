@@ -16,9 +16,13 @@ To begin with:
 
 Certificate:
 
-[UA_RL_1.pdf](https://github.com/yoyostudy/rl_ua/files/11346475/UA_RL_1.pdf)
+[Fundamentals of Reinforcement Learning](https://github.com/yoyostudy/rl_ua/blob/main/Certificates/UA_RL_1.pdf)
 
-[UA_RL_4.pdf](https://github.com/yoyostudy/rl_ua/files/11346478/UA_RL_4.pdf)
+[Sample-based Learning Method](https://github.com/yoyostudy/rl_ua/blob/main/Certificates/UA_RL_2.pdf)
+
+[Prediction and Control with Function Approximation](https://github.com/yoyostudy/rl_ua/blob/main/Certificates/UA_RL_3.pdf)
+
+[A Complete Reinforcement Learning System](https://github.com/yoyostudy/rl_ua/blob/main/Certificates/UA_RL_4.pdf)
 
 Assignments:
 
