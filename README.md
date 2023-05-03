@@ -16,10 +16,10 @@ To begin with:
 
 Certificate:
 
-[Fundamentals of Reinforcement Learning](https://github.com/yoyostudy/rl_ua/blob/main/Certificates/UA_RL_1.pdf)
-[Sample-based Learning Method](https://github.com/yoyostudy/rl_ua/blob/main/Certificates/UA_RL_2.pdf)
-[Prediction and Control with Function Approximation](https://github.com/yoyostudy/rl_ua/blob/main/Certificates/UA_RL_3.pdf)
-[A Complete Reinforcement Learning System](https://github.com/yoyostudy/rl_ua/blob/main/Certificates/UA_RL_4.pdf)
+1. [Fundamentals of Reinforcement Learning](https://github.com/yoyostudy/rl_ua/blob/main/Certificates/UA_RL_1.pdf)
+2. [Sample-based Learning Method](https://github.com/yoyostudy/rl_ua/blob/main/Certificates/UA_RL_2.pdf)
+3. [Prediction and Control with Function Approximation](https://github.com/yoyostudy/rl_ua/blob/main/Certificates/UA_RL_3.pdf)
+4. [A Complete Reinforcement Learning System](https://github.com/yoyostudy/rl_ua/blob/main/Certificates/UA_RL_4.pdf)
 
 Assignments:
 
