@@ -27,6 +27,7 @@ Assignments:
       
       Key Words: Model-based, Policy Evaluation, Policy Iteration, Value Iteration
 - Course-2-Assignments: 🔗 Sutton Chapter 6
+  
   [Policy Evaluation in cliff Walking Environment](https://github.com/yoyostudy/rl_ua/tree/main/code/C2_A1_CliffWalking_PolicyEvaluation/Policy%20Evaluation%20with%20Temporal%20Difference%20Learning)
 
       key Words: TD, Model-free, boostrapping, TD(0), policy-based
