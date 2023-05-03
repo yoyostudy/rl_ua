@@ -24,6 +24,7 @@ Assignments:
 
 - Course-1-Assignment-1: [Bandit Exploration and Exploitation](https://github.com/yoyostudy/rl_ua/tree/main/code/C1_W1_A1_bandit_exploration_eploitation/Bandits)
 - Course-1-Assignment-2: [Optimal Policies with Dynamic Programming]() 🔗 Sutton Chapter 4
+      - Key Words: 🔑 Model-based, Policy Evaluation, Policy Iteration, Value Iteration
 
 ## Course 1. 
 
