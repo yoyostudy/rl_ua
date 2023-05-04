@@ -2,7 +2,7 @@
 
 ✏️ This repository contains notes and records from the Coursera course Reinforcemeent Learning @University of Alberta
 
-📖 This course followed the rl textbook by Sutton. 
+📖 This course followed the legendary reinforcement learning textbook by Sutton. 
 
 -------------------
 To begin with:
