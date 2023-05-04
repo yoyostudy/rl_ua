@@ -16,7 +16,7 @@
  
  ## Classes and Functions:
 
-- ActionValueNetwork
+- ActionValueNetwork Class
   > A neural network based function approximator to approximate the action-value function 
   $q(s,a;w) \rightarrow q_{\pi}(s,a)$
   
@@ -26,11 +26,11 @@
   - get_TD_update(self, s, delta_mat)
   - init_saxe(self, rows, cols): weight initialization borrowed idea from Saxe
 
-- Adam Optimizer  [🔗](https://github.com/yoyostudy/rl_ua/blob/main/notes/adam_optimizer.md)
+- Adam Class [🔗](https://github.com/yoyostudy/rl_ua/blob/main/notes/adam_optimizer.md)
 
-- ReplayBuffer [🔗](https://github.com/yoyostudy/rl_ua/blob/main/notes/experience_replay.md)
+- ReplayBuffer Class [🔗](https://github.com/yoyostudy/rl_ua/blob/main/notes/experience_replay.md)
 
-- softmax
+- softmax Function
   $$Pr(A_t=a|S_t=s) = \frac{e^{Q(s,a)/ \tau - max_c Q(s,c)/\tau }}{\sum_{b \in A} e^{Q(s,b)/\tau - max_c Q(s,c)/\tau}}$$
   
   - $\tau$ is the temperature parameter controls how much the agent focuses on the highest value actions.
