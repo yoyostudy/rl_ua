@@ -52,6 +52,9 @@ Proof:
   $= \sum_a \pi(a|s) \sum_{s',r } p(s',r |s,a) v_{\pi}(s')$
 - Write in the form of expectation, note that all the upper case letter are random variables where the expectations are performed.
 
+
+
+
 $$q_{\pi}(s,a) = \sum_{s',r} p(r,s'|s,a) [r + \gamma * \sum_{a'} \pi(a'|s') q_{\pi}(s',a')]$$
   
   
