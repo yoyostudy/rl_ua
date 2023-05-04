@@ -14,7 +14,7 @@
  - agent.py : an abstract class BaseAgent for RLGlue
  - plot_script: helper library to plot the result
  
- ## Classes:
+ ## Classes and Functions:
 
 - ActionValueNetwork
   > A neural network based function approximator to approximate the action-value function 
@@ -29,8 +29,6 @@
 - Adam Optimizer  [🔗](https://github.com/yoyostudy/rl_ua/blob/main/notes/adam_optimizer.md)
 
 - ReplayBuffer [🔗](https://github.com/yoyostudy/rl_ua/blob/main/notes/experience_replay.md)
-  
-## Functions
 
 - softmax
   $$Pr(A_t=a|S_t=s) = \frac{e^{Q(s,a)/ \tau - max_c Q(s,c)/\tau }}{\sum_{b \in A} e^{Q(s,b)/\tau - max_c Q(s,c)/\tau}}$$
