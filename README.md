@@ -49,8 +49,7 @@ Assignments:
  Notes:
   
  1. [Induction on Bellman Equations](https://github.com/yoyostudy/rl_ua/blob/main/notes/bellman_equation.md)
-  
-  
+ 2. [Adam Optimizer](https://github.com/yoyostudy/rl_ua/blob/main/notes/adam_optimizer.md)
   
 
 
