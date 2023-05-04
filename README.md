@@ -6,6 +6,10 @@
 
 -------------------
 
+To begin with:
+
+This is not an easy course that can be finished overnight, I need to think and read over and over again. The video is fast pased and sometimes omitting important details. 
+
 How did I learn this course:
 
 - 📖 read book
