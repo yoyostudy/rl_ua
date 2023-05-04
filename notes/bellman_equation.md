@@ -34,7 +34,7 @@ $$q_{\pi}(s,a) = \sum_{s',r} p(s',r|s,a) (r + \gamma * v_{\pi}(s'))$$
 
 图片正在加载中....
 
-![think](https://user-images.githubusercontent.com/115062425/236089921-6041f5bb-54b1-48a0-b103-99860552fe08.jpg)
+![think](https://user-images.githubusercontent.com/115062425/236089921-6041f5bb-54b1-48a0-b103-99860552fe08.jpg/200/300)
 
 
   
