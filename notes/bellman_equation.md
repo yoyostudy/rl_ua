@@ -48,7 +48,7 @@ Proof:
 
 > Connect $V_{\pi}(s)$ with $Q_{\pi}(s,a)$ 
 
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/115062425/236314759-dad2a97a-4cdf-4a76-ac3c-ebe8c4f9e1b3.png">
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/115062425/236315038-1605790b-8d89-4dda-9726-5f7355db96c7.png">
 
 $$v_{\pi}(s) = \sum_{a} \pi(a|s) q_{\pi}(a,s)$$
 
