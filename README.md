@@ -36,21 +36,14 @@ Assignments:
       key Words: TD, Model-free, boostrapping, TD(0), policy-based
       
   
-      
+## Induction on Bellman Equation 
 
-## Course 1. 
+$v_{\pi}(s) = \sum_{a} \pi(a|s) \sum_{s', r} p(s',r|s,a) (r + v_{\pi}(s'))$
 
-### Bellman Equation
+Proof:
+$v_{\pi}(s) := E_{\pi}(U_t|S_t = s) = E_{\pi}(R_t + \gamma*U_{t+1}) |S_t = s) = E_{\pi}(R_t|S_t = s) + \gamma*E_{\pi}(U_{t+1}|S_t = s)$
+$E_{\pi}(R_t|S_t = s)  = \sum_{r} r \cdot p(r|s) = \sum_r r \cdot \sum_a p(r,a|s) = $
 
-### Dynamic Programming
-
-Refer to _Sutton Chapter4_
-
-- DP + Perfect Model of finite MDP env --> compute optimal policy
-
-**1. (Prediction Problem) Policy Evaluation**
-
-$$v_{\pi}(s) = \mathbb{E_{\pi}}$$
 
 
 
