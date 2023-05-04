@@ -60,6 +60,8 @@ Proof:
 $$q_{\pi}(s,a) = \sum_{s',r} p(r,s'|s,a) [r + \gamma * \sum_{a'} \pi(a'|s') q_{\pi}(s',a')]$$
 
 > Connect $V_{\pi}(s)$ with $Q_{\pi}(s,a)$ 
+
+$$v_{\pi}(s) = \sum_{a} \pi(a|s) q_{\pi}(a|s)$$
   
   
   
