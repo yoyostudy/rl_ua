@@ -37,7 +37,7 @@
   - The smaller the temperature parameter $\tau$, the more the agent selects the greedy action.
   - To prevent the exponential explosion, we subtract the maximum preferences across the action
 
-- get_td_error
+- get_td_error Function
   $$Q_{t+1}^{i+1}(s,a) \leftarrow Q_{t+1}^i(s,a) + \alpha \cdot \[ r + \gamma (\sum_b \pi(b\|s') Q_t(s',b) ) - Q_{t+1}^i(s,a) \]$$
   1. Compute the action-values for the next states using the action-value network $Q_t$:  $$Q_t(s',b) \quad  \forall \  b \in \mathit{A}$$
   2. Compute the policy $\pi(b\|s')$ induced by the action-values $Q_t$, using the _softmax()_
