@@ -35,9 +35,9 @@ Assignments:
 
       key Words: TD, Model-free, boostrapping, TD(0), policy-based
       
-  Notes:
+ Notes:
   
-  1. [Induction on Bellman Equations](https://github.com/yoyostudy/rl_ua/blob/main/notes/bellman_equation.md)
+ 1. [Induction on Bellman Equations](https://github.com/yoyostudy/rl_ua/blob/main/notes/bellman_equation.md)
   
   
   
