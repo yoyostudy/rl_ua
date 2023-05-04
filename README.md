@@ -9,7 +9,7 @@
 How did I learn this course:
 
 - 📖 read book
-- 🧮 hands dirty
+- 🧮 get my hands dirty
 
 To begin with:
 
