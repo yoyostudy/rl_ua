@@ -54,9 +54,10 @@ $$v_{\pi}(s) = \sum_{a} \pi(a|s) q_{\pi}(a,s)$$
 
 > Connect $Q_{\pi}(s,a)$ with $V_{\pi}(s')$
 
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/115062425/236315521-20527812-2786-42c7-9195-feed4baa5672.png">
+
 $$q_{\pi}(s,a) = \sum_{s',r} p(s',r|s,a) (r + \gamma * v_{\pi}(s'))$$
 
-图片正在加载中....
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ![think](https://user-images.githubusercontent.com/115062425/236089921-6041f5bb-54b1-48a0-b103-99860552fe08.jpg)
