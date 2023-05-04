@@ -34,6 +34,8 @@ Assignments:
   [Q-learning and Expected SARSA in cliff Walking Environment](https://github.com/yoyostudy/rl_ua/tree/main/code/C2_A2_Qlearning_SARSA_CliffWalking/Q-Learning%20and%20Expected%20Sarsa)
 
       key Words: TD, Model-free, boostrapping, TD(0), policy-based
+   
+   [Dyna-Q for Maze](https://github.com/yoyostudy/rl_ua/tree/main/code/C2_A3_Dyna-Q_Maze/Dyna-Q)
       
  Notes:
   
