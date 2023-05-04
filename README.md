@@ -41,96 +41,16 @@ Assignments:
 $v_{\pi}(s) = \sum_{a} \pi(a|s) \sum_{s', r} p(s',r|s,a) (r + v_{\pi}(s'))$
 
 Proof:
-$v_{\pi}(s) := E_{\pi}(U_t|S_t = s) = E_{\pi}(R_t + \gamma*U_{t+1}) |S_t = s) = E_{\pi}(R_t|S_t = s) + \gamma*E_{\pi}(U_{t+1}|S_t = s)$
-$E_{\pi}(R_t|S_t = s)  = \sum_{r} r \cdot p(r|s) = \sum_r r \cdot \sum_a p(r,a|s) = $
+- $v_{\pi}(s) := E_{\pi}(U_t|S_t = s) = E_{\pi}(R_t + \gamma * U_{t+1}) |S_t = s) = E_{\pi}(R_t|S_t = s) + \gamma * E_{\pi}(U_{t+1}|S_t = s)$
+- $E_{\pi}(R_t|S_t = s)  = \sum_{r} r \cdot p(r|s) = \sum_r r \cdot \sum_a p(r,a|s) = \sum_r \sum_a r p(r|a,s) \pi(a|s) = \sum_a \pi(a|s) \sum_r \sum_{s'} r p(s',r|s,a) = \sum_a \pi(a|s) \sum_{r, s'} p(s',r|s,a) \cdot r$
+- $E_{\pi}(U_{t+1}|S_t = s) = \sum_{u_{t+1}} u_{t+1} p(u_{t+1} |s) = \sum_{u_{t+1}} u_{t+1} \sum_a  p(u_{t+1}, a|s) =  \sum_{u_{t+1}} u_{t+1} \sum_a  p(u_{t+1}|s, a) \pi(a|s) = \sum_a \pi(a|s)  \sum_{u_{t+1}} u_{t+1} \cdot p(u_{t+1}|s, a)$
+  $= \sum_a \pi(a|s) \sum_{u_{t+1}} u_{t+1} \sum_{s'} p(u_{t+1}, s'|s, a)$
+  $= \sum_a \pi(a|s) \sum_{u_{t+1}} u_{t+1} \sum_{s'} p(u_{t+1}| s', s, a)p(s'|s,a) $
+  $= \sum_a \pi(a|s) \sum_{u_{t+1}} u_{t+1} \sum_{s'} p(u_{t+1}| s') \sum_r p(s', r|s,a) $
+  $= \sum_a \pi(a|s) \sum_{s'} \sum_r  p(s',r |s,a) \sum_{u_{t+1}}  p(u_{t+1}| s') \cdot u_{t+1} $
+  $= \sum_a \pi(a|s) \sum_{s'} \sum_r  p(s',r |s,a) E[U_{t+1} | s']$
+  $= \sum_a \pi(a|s) \sum_{s',r } p(s',r |s,a) v_{\pi}(s')$
 
-
-
-
-
-
-
-## Course 2. Sample-based Learning Method
-
-🔗 Refer to _Sutton_ **Chapter5** - **Chapter8**
-
-### Module1 
-
-🔗 **Chapter5.0-5.5**
-
-1. Introduction to Monte-Carlo Methods
-      - 🎯 Learn state value function for a fixed policy 
-        $$\large{v_{\pi}(s) = \mathit{E_{\pi}} \[G_t | S_t = s \]}$$
-      - Model-free : 😖❓ no idea of the environment (state transaction function) 💪 learn from simulated experience
-        > learn from the agent's own interaction with the world, rather than a model of the world
-      - Episodic-by-episode Update: learn value use averaging sample returns 回合更新
-
-        > Learn the __state-value function__ $v_{\pi}(s)$ considering Monte-Carlo method
-
-        ```pseudocode
-        Estimate the state value based on reward average on each episode
-
-        Args:
-          policy pi ## policy to be evaluated
-          V(s)      ## state-value function given the policy pi
-          S(s)      ## a list of total reward for each episode
-          N(s)      ## number of episode
-
-        Repeat for each episode:
-          N(s) += 1
-          For each state s until episode terminate:
-            Generate an episode following policy pi: S0(s), A0, R1, S1, A1,....
-            G(s) <- return given initial state S0=s
-            S(s) <- S(s).append(G(s))
-            V(s) <- average(S(s))
-        ```
-        Law of Large Numbers gives: $$N(s) \rightarrow \infty, V(s) \rightarrow v_{\pi}(s)$$
-
-2. Monte-carlo for Control
-
-      - 🎯 Learn action value function for a given policy
-      $$q_{\pi}(s,a) = \mathit{E_{\pi}} \[G_t | S_t = s, A_t = a \]$$
-      
-      - 🎯 Build a generalized policy iteration algorithm (GPI)
-        
-        policy improvement + policy evaluation
-        
-        ```
-        Args:
-          policy pi # p(a|s)
-          Q(s,a) 
-          S(s,a)
-          N(s)      # number of episode
-          
-        Repeat for each episode:
-          N(s) += 1
-          Choose (S0,A0)
-          Generate a episode starting from (S0,A0), following policy pi
-          For each pair (s,a) in the episode:
-            G <- Return given initial state s, action a
-            S(s,a) <- S(s,a).append(G)
-            Q(s,a) <- average(S(s,a))
-          For each s in the episode:
-            pi(s) = argmax_a Q(s,a)  
-        ```
-        ![Screen Shot 2023-04-24 at 1 16 06 PM](https://user-images.githubusercontent.com/115062425/234106405-2aa48b2c-0cb3-43db-aaa7-0e2a5acf6df6.png)
-      
-3. Exploration Methods for Monte-Carlo
-    
-
-4. Off-policy learning for prediction
-
-
-### Model 2. Temporal difference (TD) learning
-🔗 **Chapter 6.3**
-
-
-## Course3 Prediction and Control with Function Approximation
-
-- learn parametrized function <-- store all values for all states in a table
-- neural network to approximate the value
-
-- refer: **Ch.9.1-9.4**
 
 
 
