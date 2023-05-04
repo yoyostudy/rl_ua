@@ -40,7 +40,7 @@ Assignments:
 
 > Bellman equation for value function. It expresses a relationship between the value of a state and the values of its successor states
 
-$$v_{\pi}(s) = \sum_{a} \pi(a|s) \sum_{s', r} p(s',r|s,a) (r + v_{\pi}(s')) = E_{\pi} [R_t + \gamma* v_{\pi}(S_{t+1}) | S_t = s]$$
+$$v_{\pi}(s) = \sum_{a} \pi(a|s) \sum_{s', r} p(s',r|s,a) (r + \gamma * v_{\pi}(s')) = E_{\pi} [R_t + \gamma* v_{\pi}(S_{t+1}) | S_t = s]$$
 
 Proof:
 - $v_{\pi}(s) := E_{\pi}(U_t|S_t = s) = E_{\pi}(R_t + \gamma * U_{t+1}) |S_t = s) = E_{\pi}(R_t|S_t = s) + \gamma * E_{\pi}(U_{t+1}|S_t = s)$
@@ -58,6 +58,8 @@ Proof:
 
 
 $$q_{\pi}(s,a) = \sum_{s',r} p(r,s'|s,a) [r + \gamma * \sum_{a'} \pi(a'|s') q_{\pi}(s',a')]$$
+
+> Connect $V_{\pi}(s)$ with $Q_{\pi}(s,a)$ 
   
   
   
