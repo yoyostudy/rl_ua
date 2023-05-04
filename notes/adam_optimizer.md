@@ -4,7 +4,7 @@
 
 Backword Propagation:
 
-> 当前时刻的速度是前一时刻速度和加速度的共同作用的结果
+> 💡 当前时刻的速度是前一时刻速度和加速度的共同作用的结果
 
 $v_{dW} \leftarrow \beta * v_{dW} + (1-\beta) dW$
 
