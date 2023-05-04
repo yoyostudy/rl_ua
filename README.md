@@ -5,6 +5,12 @@
 📖 This course followed the legendary reinforcement learning textbook by Sutton. 
 
 -------------------
+
+How did I learn this course:
+
+- 📖 read book
+- 🧮 hands dirty
+
 To begin with:
 
 小小的吐槽🤫: 其实感觉这个课程的质量不高，两个老师讲的很快，推导也是一步带过。好几个video都是反复看了好几遍也没听懂，但是一看书就很清楚。
