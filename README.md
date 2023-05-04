@@ -39,7 +39,7 @@ Assignments:
    
  - Course-3-Assignment-1
  
- - Course-4-Capstone [Lunar Lander](https://github.com/yoyostudy/rl_ua/tree/main/code/C4_lunar_lander_ua_rl)
+ - Course-4-Capstone: [Lunar Lander](https://github.com/yoyostudy/rl_ua/tree/main/code/C4_lunar_lander_ua_rl)
       
  Notes:
   
