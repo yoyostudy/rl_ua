@@ -29,4 +29,6 @@ $$v_{\pi}(s) = \sum_{a} \pi(a|s) q_{\pi}(a,s)$$
 图片正在加载中....
 
 > Connect $Q_{\pi}(s,a)$ with $V_{\pi}(s')$
+
+$$q_{\pi}(s,a) = \sum_{s',r} p(s',r|s,a) (r + \gamma * v_{\pi}(s')$$
   
