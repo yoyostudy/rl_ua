@@ -28,9 +28,8 @@
 
 - Adam Optimizer  [🔗](https://github.com/yoyostudy/rl_ua/blob/main/notes/adam_optimizer.md)
 
-- ReplayBuffer
-  > Experience replay is a simple method that can get some of the advantages of Dyna by saving a buffer of experience and using the data stored in the buffer as a model
-
+- ReplayBuffer [🔗](https://github.com/yoyostudy/rl_ua/blob/main/notes/experience_replay.md)
+  
 ## Functions
 
 - softmax
