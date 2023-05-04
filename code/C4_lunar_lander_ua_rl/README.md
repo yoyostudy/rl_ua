@@ -1,4 +1,4 @@
-# Automate Lunar Lander with Reinforcement Leanring
+# Automate Lunar Lander with  Reinforcement Leanring
 
 - 🏷️ A capstone project for the reinforcement learning specialization by the University of Albeta
 - 🎯 Teach a RL agent to land the lunar without crashing. 
