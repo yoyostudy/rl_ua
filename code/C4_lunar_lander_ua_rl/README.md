@@ -1,10 +1,10 @@
 # Automate Lunar Lander with  Reinforcement Leanring
 
 - 🏷️ A capstone project for the reinforcement learning specialization by the University of Albeta
-- 🎯 Teach a RL agent to land the lunar without crashing. 
+- 🎯 Teach a __Expected Sarsa__ rl agent to land the lunar without crashing. 
   - 🔧 Use a neural network as a function approximator to the action value function $q_{\pi}(s,a)$
-  - 🎲 Select actions according to the __softmax policy__
   - 🏃‍♀️ Train deep neural network with __Adam optimizer__
+  - 🎲 Select actions $a \leftarrow \pi(\cdot|s)$ according to the __softmax policy__
   - 💪 Improve sample efficiency use __experience relay__
   
  ## Libraries:
@@ -17,9 +17,11 @@
  ## Classes:
 
 - ActionValueNetwork
-  > Implement a neurral network based function approximator to approximate the action-value function
+  > A neural network based function approximator to approximate the action-value function 
+  $q(s,a;w) \rightarrow q_{\pi}(s,a)$
+  
   - __init__():
-    - call function self.init_saxe for weight
+    - set hyperparameters
   - get_action_value(self, state) -> q_vals: a list of q_value for each action
   - get_TD_update(self, s, delta_mat)
   - init_saxe(self, rows, cols): weight initialization borrowed idea from Saxe
