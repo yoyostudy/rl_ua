@@ -1,6 +1,6 @@
 ### RL specialization offered by Univerisity of Albeta @Coursera
 
-✏️ This repository is the record and note of this Coursera Course
+✏️ This repository is a record and note of this Coursera Course
 
 📖 This course followed the rl textbook by Sutton. 
 
