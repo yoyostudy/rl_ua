@@ -24,6 +24,7 @@ Certificate:
 3. [Prediction and Control with Function Approximation](https://github.com/yoyostudy/rl_ua/blob/main/Certificates/UA_RL_3.pdf)
 4. [A Complete Reinforcement Learning System](https://github.com/yoyostudy/rl_ua/blob/main/Certificates/UA_RL_4.pdf)
 
+--------------------
 Assignments:
 
 - Course-1-Assignment-1: [Bandit Exploration and Exploitation](https://github.com/yoyostudy/rl_ua/tree/main/code/C1_W1_A1_bandit_exploration_eploitation/Bandits)
@@ -44,6 +45,7 @@ Assignments:
  
  - Course-4-Capstone: [Lunar Lander](https://github.com/yoyostudy/rl_ua/tree/main/code/C4_lunar_lander_ua_rl)
       
+ --------------------
  Notes:
   
  1. [Induction on Bellman Equations](https://github.com/yoyostudy/rl_ua/blob/main/notes/bellman_equation.md)
