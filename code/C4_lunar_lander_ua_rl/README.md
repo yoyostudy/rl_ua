@@ -21,7 +21,7 @@
   $q(s,a;w) \rightarrow q_{\pi}(s,a)$
   
   - __init__():
-    - set hyperparameters
+    - set hyperparameters and parameters
   - get_action_value(self, state) -> q_vals: a list of q_value for each action
   - get_TD_update(self, s, delta_mat)
   - init_saxe(self, rows, cols): weight initialization borrowed idea from Saxe
