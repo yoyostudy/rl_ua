@@ -26,14 +26,7 @@
   - get_TD_update(self, s, delta_mat)
   - init_saxe(self, rows, cols): weight initialization borrowed idea from Saxe
 
-- Adam Optimizer  
-  > It is a more advanced variant of stochastic gradient descent(SGD) 随机梯度下降 
-  >
-  > The Adam algorithm improves the SGD update with two concept
-  > 
-  > 1. adoptive vector stepsizes
-  >
-  > 2. momentum
+- Adam Optimizer  [🔗](https://github.com/yoyostudy/rl_ua/blob/main/notes/adam_optimizer.md)
 
 - ReplayBuffer
   > Experience replay is a simple method that can get some of the advantages of Dyna by saving a buffer of experience and using the data stored in the buffer as a model
