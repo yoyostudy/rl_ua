@@ -38,6 +38,8 @@ Assignments:
   
 ## Induction on Bellman Equation 
 
+> Bellman equation for value function. It expresses a relationship between the value of a state and the values of its successor states
+
 $$v_{\pi}(s) = \sum_{a} \pi(a|s) \sum_{s', r} p(s',r|s,a) (r + v_{\pi}(s')) = E_{\pi} [R_t + \gamma* v_{\pi}(S_{t+1}) | S_t = s]$$
 
 Proof:
