@@ -1,6 +1,6 @@
-### RL specialization offered by Univerisity of Albeta @Coursera
+### RL specialization offered by Univerisity of Alberta @Coursera
 
-✏️ This repository is a record and note of this Coursera Course
+✏️ This repository contains notes and records from the Coursera course Reinforcemeent Learning @University of Alberta
 
 📖 This course followed the rl textbook by Sutton. 
 
