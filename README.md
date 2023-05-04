@@ -27,7 +27,7 @@ Certificate:
 Assignments:
 
 - Course-1-Assignment-1: [Bandit Exploration and Exploitation](https://github.com/yoyostudy/rl_ua/tree/main/code/C1_W1_A1_bandit_exploration_eploitation/Bandits)
-- Course-1-Assignment-2: [Optimal Policies with Dynamic Programming](https://github.com/yoyostudy/rl_ua/blob/main/code/C1_W1_A2_GridworldCityParking_DP/DynamicProgramming/Assignment2.ipynb) 🔗 Sutton Chapter 4
+- Course-1-Assignment-2: [Optimal Policies with Dynamic Programming](https://github.com/yoyostudy/rl_ua/blob/main/code/C1_W1_A2_GridworldCityParking_DP/DynamicProgramming/Assignment2.ipynb) 
       
       Key Words: Model-based, Policy Evaluation, Policy Iteration, Value Iteration
 - Course-2-Assignments: 🔗 Sutton Chapter 6
