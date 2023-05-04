@@ -62,4 +62,7 @@ $$q_{\pi}(s,a) = \sum_{s',r} p(s',r|s,a) (r + \gamma * v_{\pi}(s'))$$
 ![think](https://user-images.githubusercontent.com/115062425/236089921-6041f5bb-54b1-48a0-b103-99860552fe08.jpg)
 
 
+https://stepneverstop.github.io/%E4%BB%B7%E5%80%BC%E4%B8%8E%E8%B4%9D%E5%B0%94%E6%9B%BC%E6%96%B9%E7%A8%8B.html
+
+
   
