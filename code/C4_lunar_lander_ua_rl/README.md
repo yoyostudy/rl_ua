@@ -3,9 +3,9 @@
 - 🏷️ A capstone project for the reinforcement learning specialization by the University of Albeta
 - 🎯 Teach a RL agent to land the lunar without crashing. 
   - 🔧 Use a neural network as a function approximator to the action-values 
-  - 🎲 Select actions according to the softmax policy
-  - 🏃‍♀️ Train SARSA agent with Adam optimizer
-  - 💪 Improve sample efficiency use experience relay
+  - 🎲 Select actions according to the __softmax policy__
+  - 🏃‍♀️ Train SARSA agent with __Adam optimizer__
+  - 💪 Improve sample efficiency use __experience relay__
   
  ## Libraries:
  - rl_glue.py : a library glue together experiment, agent and environment
