@@ -6,7 +6,7 @@
 
 -------------------
 
-To begin with:
+To begin with ...
 
 This is not an easy course that can be finished overnight, I need to think and read over and over again. The video lectures were fast-pased and sometimes omitted important details, making it challenging to follow along. 
 
