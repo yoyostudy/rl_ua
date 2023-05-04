@@ -36,6 +36,8 @@ Assignments:
       key Words: TD, Model-free, boostrapping, TD(0), policy-based
    
    [Dyna-Q for Maze](https://github.com/yoyostudy/rl_ua/tree/main/code/C2_A3_Dyna-Q_Maze/Dyna-Q)
+   
+ - Course-3-Assignment-1
       
  Notes:
   
