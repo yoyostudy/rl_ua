@@ -4,7 +4,7 @@
 - 🎯 Teach a RL agent to land the lunar without crashing. 
   - 🔧 Use a neural network as a function approximator to the action value function $q_{\pi}(s,a)$
   - 🎲 Select actions according to the __softmax policy__
-  - 🏃‍♀️ Train SARSA agent with __Adam optimizer__
+  - 🏃‍♀️ Train deep neural network with __Adam optimizer__
   - 💪 Improve sample efficiency use __experience relay__
   
  ## Libraries:
