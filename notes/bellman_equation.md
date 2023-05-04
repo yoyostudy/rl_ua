@@ -48,9 +48,9 @@ Proof:
 
 > Connect $V_{\pi}(s)$ with $Q_{\pi}(s,a)$ 
 
-$$v_{\pi}(s) = \sum_{a} \pi(a|s) q_{\pi}(a,s)$$
-
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/115062425/236314759-dad2a97a-4cdf-4a76-ac3c-ebe8c4f9e1b3.png">
+
+$$v_{\pi}(s) = \sum_{a} \pi(a|s) q_{\pi}(a,s)$$
 
 > Connect $Q_{\pi}(s,a)$ with $V_{\pi}(s')$
 
